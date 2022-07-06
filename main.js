@@ -6,7 +6,6 @@ const moreCars = ["Hyundai", "Toyota", "BMW", "Honda"]
 totalCars = cars.concat(moreCars)
 console.log(totalCars)
 
-
 let hondaIndex = totalCars.indexOf('Honda')
 console.log('the index of Honda is ' ,hondaIndex)
 
@@ -37,4 +36,20 @@ console.log(pets)
 
 let removedReptiles = pets.splice(4,2)
 console.log(removedReptiles)
+console.log(pets)
+
+let hamster = pets.splice(4,0,'hamster')
+console.log(pets)
+
+let removedPet = pets.pop()
+console.log(removedPet)
+console.log(pets)
+
+pets.push("bird")
+  console.log(pets)
+
+pets.shift('hamster')
+console.log(pets)
+
+pets.unshift('turtle')
 console.log(pets)
