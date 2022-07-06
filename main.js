@@ -1,3 +1,4 @@
+//cars
 const cars = ["Ford", "Chevy", "Buick", "Nissan"]
 console.log(cars.length)
 
@@ -28,6 +29,7 @@ let yourPrediction = "BMW"
   
 console.log(carsInReverse.indexOf(yourPrediction))
 
+//pets
 const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird']
 
 let reptilesArray = pets.slice(4,-1)
@@ -53,3 +55,10 @@ console.log(pets)
 
 pets.unshift('turtle')
 console.log(pets)
+
+//add 2 to each item in the array
+const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34];
+numbers.forEach((num, index, array) => {
+  array[index] = num + 2;
+});
+console.log(numbers);
