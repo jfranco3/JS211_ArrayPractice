@@ -29,4 +29,12 @@ let yourPrediction = "BMW"
   
 console.log(carsInReverse.indexOf(yourPrediction))
 
+const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird']
 
+let reptilesArray = pets.slice(4,-1)
+console.log(reptilesArray)
+console.log(pets)
+
+let removedReptiles = pets.splice(4,2)
+console.log(removedReptiles)
+console.log(pets)
